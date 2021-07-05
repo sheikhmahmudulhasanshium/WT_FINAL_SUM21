@@ -45,8 +45,10 @@
 <html>
     <body>
         <form action="" method="post">
-            Username: <input type="text" name="uname" value="<?php echo $uname;?>"> <span><?php echo $err_uname; ?></span>
-            Password: <input type="password" name="pass" value="<?php echo $pass;?>"> <span><?php echo $err_pass; ?></span>
+            Username: <input type="text" name="uname" value="<?php echo $uname;?>"><br>
+             <span><?php echo $err_uname; ?></span><br>
+            Password: <input type="password" name="pass" value="<?php echo $pass;?>"><br>
+             <span><?php echo $err_pass; ?></span><br>
             <input type="submit" value="Login">
         </form>
     </body>
