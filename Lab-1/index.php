@@ -44,7 +44,7 @@
 ?>
 <html>
     <body>
-        <form action="" method="post">
+        <form action="" method="post" align="center">
             Username: <input type="text" name="uname" value="<?php echo $uname;?>"><br>
              <span><?php echo $err_uname; ?></span><br>
             Password: <input type="password" name="pass" value="<?php echo $pass;?>"><br>
