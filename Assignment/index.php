@@ -1,6 +1,6 @@
 <?php
 	include "header.php";
-	include "db_config.php";
+	include "models/db_config.php";
 	if($conn){
 		$query = "insert into users values('farooq haque','farooq123','3456')";
 		/*if(mysqli_query($conn,$query)){
