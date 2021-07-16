@@ -4,7 +4,6 @@
 	$db_uname="root";
 	$db_pass="";
 	$db_name="wt_prac";
-	
 	function execute($query){           //insert, update, delete
 		global $db_server,$db_uname,$db_pass,$db_name;
 		$conn = mysqli_connect($db_server,$db_uname,$db_pass,$db_name);
@@ -18,8 +17,9 @@
 		}
 	}
 	
+	
 	function get($query){              //for running select queires
-		global $db_server,$db_uname,$db_pass,$db_name;
+		global $db_server,'$db_unam'e,$db_pass,$db_name;
 		$conn = mysqli_connect($db_server,$db_uname,$db_pass,$db_name);
 		$data = array();
 		if($conn){
