@@ -1,6 +1,6 @@
 <?php 
-    require_once 'controllers/StudentController.php';
-    require_once 'controllers/DepartmentController.php';
+    require_once 'Controllers/StudentController.php';
+    require_once 'Controllers/DepartmentController.php';
     $departments=getAllDepartments();
     $id = $_GET["id"];
     $row = getStudent($id);

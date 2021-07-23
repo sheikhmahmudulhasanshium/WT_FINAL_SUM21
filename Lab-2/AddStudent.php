@@ -1,6 +1,6 @@
 
 <?php
-    require_once 'controllers/StudentController.php';
+    require_once 'Controllers/StudentController.php';
     ?>
 <html>
 	<head></head>

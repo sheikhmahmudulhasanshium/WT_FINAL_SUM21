@@ -1,5 +1,5 @@
 <?php
-	include 'controllers/UserController.php';
+	include 'Controllers/UserController.php';
 ?>
 
 
@@ -7,10 +7,8 @@
 	<body>
 		<fieldset>
 			<form action="" method = "post">
+			<h1 ><b>Login </b></h1>
 				<table align="center">
-					<tr>
-						<td colspan="2" align="center"><h2 style="color:blue"><b>Login </b></h2></td>
-					</tr>
 					<tr>
 						<td colspan="2" align="center"><h5 class="text-danger"><?php echo $err_db; ?> </h5></td>
 					</tr>

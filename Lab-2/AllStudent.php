@@ -1,5 +1,5 @@
 <?php
-    require_once 'controllers/DepartmentController.php';
+    require_once 'Controllers/DepartmentController.php';
 	$students=getStudents();
 	
     
