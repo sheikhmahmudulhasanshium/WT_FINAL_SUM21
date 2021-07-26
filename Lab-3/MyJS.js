@@ -11,6 +11,10 @@ function  writeOp(e)
 }
 function  hideDetails()
 {
+    get("info").style.display="none";
+}
+function  showDetails()
+{
     get("info").style.display="block";
 }
 function  turnOn()
