@@ -1,5 +1,5 @@
 <?php
-	include 'models/db_config.php';
+	include 'Models/db_config.php';
 	
 	$name="";
 	$err_name="";
