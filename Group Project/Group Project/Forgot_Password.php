@@ -1,65 +1,12 @@
+    
 <?php
-
-$username = "";
-$err_username = "";
-$email = "";
-$err_email = "";
-$hasError=false;
-
-
-if($_SERVER["REQUEST_METHOD"] == "POST")
-{
-	
-	
-	if(empty($_POST["username"]))
-	{
-		$hasError = true;
-		$err_username = "UserName required";
-	}
-	else if(strlen($_POST["username"])< 6)
-	{
-		$hasError = true;
-		$err_username = "UserName must be at least 6 characters";
-	}
-	else if(strpos($_POST["username"], ' ') !== false)
-	{
-		$hasError = true;
-		$err_username = "UserName doesn't allow spaces";
-	}
-	else
-	{
-		$username = $_POST["username"];
-	}
-	
-	
-	if(empty($_POST["email"]))
-	{
-		$hasError = true;
-		$err_email = "Email required";
-	}
-	else if(strpos($_POST["email"],"@") && strpos($_POST["email"],".") )
-	{
-		$email = $_POST["email"];
-	}
-	else
-	{
-		$hasError = true;
-		$err_email = "Email format not correct";
-	}
-	
-
-	
-	if(!$hasError)
-	{
-	echo $_POST["username"]."<br>";
-	echo $_POST["email"]."<br>";
-	}
-	
-}
-
-?>
-
+    require_once 'controllers/controller.php';
+    ?>
     <html>
+    <head>
+		<link rel="stylesheet" href="styles/mystyles.css">
+	</head>
+   
        <body>
          <form action="Reset_Password.php" method="post">
               <table align="Center">

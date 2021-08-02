@@ -1,4 +1,8 @@
 <html>
+    
+	<head>
+		<link rel="stylesheet" href="styles/mystyles.css">
+	</head>
     <body>
         <table  align="center">
             <tr>
@@ -8,78 +12,75 @@
                         Customer Panel
                     </h1>
                 </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a target="_blank" href="EditCustomerProfile.php">
-                        <input type="submit" value="Edit Profile"><br>
+                </table>
+                <div align="center">
+                        <a target="_blank"  class="btn-link"
+                        href="EditCustomerProfile.php">
+                 <!--   <input type="submit" value="Edit Profile">-->Edit Profile
                         </a>
-                    </td>
-                    <td>
-                        <a target="_blank" href="Forgot_password.php">
-                        <input type="submit" value="Forgot Password"><br>
-                        </a>
-                    </td>
-                    <td>
-                        <a target="_blank" href="DeleteCustomerProfile.php">
-                        <input type="submit" value="Delete Profile"><br>
-                        </a>
-                    </td>
-                    <td>
-                        <a target="_blank" href="Review.php">
-                        <input type="submit" value="Review"><br>
-                        </a>
-                    </td>
-                   
-                </tr>
-                <tr>
-                <td>
-                        <a target="_blank" href="Room_Booking.php">
-                        <input type="submit" value="Room Reservation"><br>
-                        </a>
-                    </td>
-                <td>
-                        <a target="_blank" href="Spa.php">
-                        <input type="submit" value="Spa Reservation"><br>
-                        </a>
-                    </td>
-                    <td>
-                        <a target="_blank" href="GymReserve.php">
-                        <input type="submit" value="Gym Reservation"><br>
-                        </a>
-                    </td>
-                    <td>
-                        <a target="_blank" href="Restaurant.php">
-                        <input type="submit" value="Food Order"><br>
-                        </a>
-                    </td>
-                   
-                    
-            </tr>
-            <tr>
-                <td>
-                   <a target="_blank" href="Catagory.php">
-                    <input type="submit" value="Select Catagory"><br>
-                    </a>
-                </td>
-                   
-                <td>
-                     <a target="_blank" href="Events.html">
-                    <input type="submit" value="Event Reservation"><br>
-                    </a>
-                </td>
-                <td>
-                    <a target="_blank" href="Special_Offer.html">
-                    <input type="submit" value="Special Offers"><br>
-                    </a>
-                </td>
-                <td>
-                    <a target="_blank" href="Online_payment.html">
-                    <input type="submit" value="Online Payment"><br>
-                    </a>
-                </td>
-            </tr>
 
-        </table>
+                        <a target="_blank"   class="btn-link"
+                        href="Forgot_password.php">
+                       <!-- <input type="submit" value="Forgot Password">-->
+                       Forgot Password
+                        </a>
+
+                        <a target="_blank"   class="btn-link"
+                        href="DeleteCustomerProfile.php">
+                        <!--<input type="submit" value="Delete Profile">-->
+                        Delete Profile
+                        </a>
+
+                        <a target="_blank"  class="btn-link"
+                         href="Review.php">
+                       <!-- <input type="submit" value="Review">-->
+                       Review
+                        </a>
+                        </div>
+                        <br>
+                        <br>
+                        <div    align="center">
+                        <a target="_blank" class="btn-link" 
+                        href="Room_Booking.php">
+                       <!-- <input type="submit" value="Room Reservation"><br>-->Room Reservation
+                        </a>
+                    
+                        <a target="_blank" class="btn-link"
+                         href="Spa.php">
+                       <!-- <input type="submit" value="Spa Reservation">-->Spa Reservation
+                        </a>
+                        <a target="_blank" class="btn-link"
+                        href="GymReserve.php">
+                        <!--<input type="submit" value="Gym Reservation"><br>-->Gym Reservation
+                        </a>
+                        <a target="_blank"  class="btn-link"
+                         href="">
+                       <!-- <input type="submit" value="Food Order"><br>-->Food Order
+                        </a>
+                      </div> 
+                      <br><br>                  
+                      <div  align="center">
+                   <a target="_blank"   class="btn-link"
+                   href="Catagory.php">
+                  <!--  <input type="submit" value="Select Catagory">
+                  <br>-->
+                  Select Catagory
+                    </a>
+
+                     <a target="_blank"   class="btn-link"  href="">
+                    <!--<input type="submit" value="Event Reservation"<br>>-->Event Reservation
+                    </a>
+
+                    <a target="_blank"  class="btn-link"
+                     href="Special_Offer.html">
+                   <!-- <input type="submit" value="Special Offers"><br>-->Special Offers
+                    </a>
+
+                    <a target="_blank"   class="btn-link"
+                    href="Online_payment.html">
+                   <!-- <input type="submit" value="Online Payment"><br>-->Online Payment
+                    </a>
+                    </div>
+
     </body>
 </html>
