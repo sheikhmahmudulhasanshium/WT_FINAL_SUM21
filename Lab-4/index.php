@@ -17,7 +17,7 @@
         xhr.send();
     }
 </script>
-<button oneclick="loadDoc()">
+<button onclick="loadDoc()">
     Click Me
 </button>
 <div id="demo">
