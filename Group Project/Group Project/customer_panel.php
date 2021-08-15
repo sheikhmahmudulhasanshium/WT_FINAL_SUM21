@@ -1,7 +1,7 @@
 <html>
     
 	<head>
-		<link rel="stylesheet" href="styles/mystyles.css">
+		<link rel="stylesheet" href="CSS/mystyles.css">
 	</head>
     <body>
         <table  align="center">

@@ -1,6 +1,6 @@
     
 <?php
-    require_once 'controllers/controller.php';
+    require_once 'Controller/controller.php';
     ?>
     <html>
     <head>
