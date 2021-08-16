@@ -1,14 +1,19 @@
     
 <?php
-    require_once 'Controller/controller.php';
+    require_once 'Controller/ForgotPassController.php';
     ?>
     <html>
     <head>
 		<link rel="stylesheet" href="styles/mystyles.css">
+        <script src="JS/ForgotPass.js">
+		
+	</script>
+	
 	</head>
    
        <body>
-         <form action="Reset_Password.php" method="post">
+       <form action="Reset_Password.php" onsubmit="return validate()" method="post">
+         <!--<form action="Reset_Password.php" method="post">-->
               <table align="Center">
                   <tr>
                       <td align="Center" colspan="3">
@@ -25,12 +30,13 @@
                         to reset your password.
                    </h4></td>
                     <td>
-                    <b>Your Email</b>  <br>
-                    <input type="text" name="email" id="email" value = "<?php echo $email;?>" placeholder="Enter Email..." >
-                    <span> <br> <?php echo $err_email;?></span><br>
-                    <b>Username</b>  <br>
-                    <input type="text" name="username" id="username"  value = "<?php echo $username;?>" placeholder="Enter your username...">
-                    <span> <br><?php echo $err_username;?> </span>
+                    <tr>
+						<td align="center"><input id="uname" name="Username"  placeholder="Username" value="<?php echo $Username;?>" type="text"> <br> <span id="err_uname"><?php echo $err_Username;?></span></td>
+					</tr>
+					<tr><td>&nbsp;</td>
+						<td ><input id="email" name="email" placeholder="email" value="<?php echo $email;?>" type="email"> <br> <span id="err_email"><?php echo $err_email;?></span> </td>
+					</tr>
+					
                 </td>
 
             </tr>
@@ -46,15 +52,17 @@
                     <input type="button" value="Back">
                 </a>
                  </td>
-                 <td><!-- <a target="_blank" href="Reset_Password.php">
-                    <input type="submit" value="Submit">
-                </a>-->
-                <?php  
-                echo    "<form  action='Reset_Password.php' method='post'>";
-                echo    "<input type='submit' value='Submit'>";
-                echo    "</form>";
-                    ?>
-                 </td>
+                 <td> <a target="_blank" href="Reset_Password.php">
+                    <input name="Reset_Password" type="submit" value="Submit">
+                </a>
+                </td>
+               <!-- <td>
+                //<?php  
+                //echo    "<form  action='Reset_Password.php' method='post'>";
+                //echo    "<input type='submit' value='Submit'>";
+                //echo    "</form>";
+                    ?></td>-->
+                 
             </tr>
            </table>
        </form> 
